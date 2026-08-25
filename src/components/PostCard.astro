@@ -1,0 +1,42 @@
+---
+interface Props {
+  post: any;
+}
+
+const { post } = Astro.props;
+const cleanId = post.id.replace(/\.[^/.]+$/, "");
+---
+
+<article class="bg-slate-50 rounded-lg overflow-hidden border-t-4 border-teal-600 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+  <div>
+    <!-- Image avec étiquette superposée -->
+    <div class="relative h-48 w-full overflow-hidden">
+      {post.data.image?.url && (
+        <img
+          src={post.data.image.url}
+          alt={post.data.image.alt || post.data.title}
+          class="w-full h-full object-cover"
+        />
+      )}
+      <span class="absolute bottom-3 right-3 bg-emerald-700/80 text-white text-xs font-bold px-3 py-1 rounded backdrop-blur-sm uppercase tracking-wider">
+        {post.data.title}
+      </span>
+    </div>
+
+    <!-- Contenu texte -->
+    <div class="p-5">
+      <h2 class="text-lg font-bold text-teal-800 mb-2">
+        {post.data.title}
+      </h2>
+      <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+        {post.data.description}
+      </p>
+    </div>
+  </div>
+
+  <div class="px-5 pb-5">
+    <a href={`/blog/${cleanId}`} class="text-teal-600 hover:text-teal-800 text-sm font-semibold inline-flex items-center gap-1">
+      Leer mas →
+    </a>
+  </div>
+</article>

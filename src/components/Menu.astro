@@ -1,0 +1,22 @@
+---
+const links = [
+  { name: 'Inicio', href: '/' },
+  { name: 'Sobre Mi', href: '/about' },
+  { name: 'Blog', href: '/blog' },
+];
+---
+
+<nav class="bg-slate-800 border-b border-slate-700 px-6 py-4">
+  <div class="max-w-5xl mx-auto flex items-center justify-between">
+    <a href="/" class="text-xl font-bold text-emerald-400">AnimalesApp</a>
+    <ul class="flex items-center gap-6 font-medium text-slate-300">
+      {links.map((link) => (
+        <li>
+          <a href={link.href} class="hover:text-emerald-400 transition-colors">
+            {link.name}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</nav>

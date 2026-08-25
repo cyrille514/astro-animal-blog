@@ -1,0 +1,27 @@
+---
+import Menu from '../components/Menu.astro';
+
+interface Props {
+  title?: string;
+}
+
+const { title = "Mi Blog de Gatitos" } = Astro.props;
+---
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans">
+    <Menu />
+    <main class="flex-grow max-w-5xl w-full mx-auto p-6">
+      <slot />
+    </main>
+    <footer class="bg-slate-800 border-t border-slate-700 text-center py-4 text-xs text-green-400">
+      © 2026 GatitosApp - Astro v5
+    </footer>
+  </body>
+</html>

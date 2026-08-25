@@ -1,0 +1,10 @@
+/* ==========================================================================
+   1. CORE DE TAILWIND Y PLUGINS
+   ========================================================================== */
+@import "tailwindcss";
+
+@plugin "@tailwindcss/typography"; /* El que añadimos antes */
+@plugin "@tailwindcss/forms";      /* Estilos base para formularios limpios */
+@plugin "tailwindcss-animate";     /* Animaciones listas para usar */
+
+/* -- */

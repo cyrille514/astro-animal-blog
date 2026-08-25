@@ -1,0 +1,30 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Activé pour le développement local avec npx decap-server
+local_backend: true 
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Fecha de Publicación", name: "pubDate", widget: "datetime" }
+      - { label: "Descripción", name: "description", widget: "text" }
+      - { label: "Autor", name: "author", widget: "string", default: "Admin" }
+      - label: "Imagen"
+        name: "image"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Archivo de Imagen", name: "url", widget: "image" }
+          - { label: "Texto Alternativo (Alt)", name: "alt", widget: "string" }
+      - { label: "Etiquetas", name: "tags", widget: "list", required: false }
+      - { label: "Contenido", name: "body", widget: "markdown" }
