@@ -2,8 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-# Activé pour le développement local avec npx decap-server
-local_backend: true 
+local_backend: false
 
 media_folder: "public/images"
 public_folder: "/images"
