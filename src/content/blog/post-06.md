@@ -1,6 +1,6 @@
 ---
 title: Camaleones
-pubDate: 2026-07-10
+pubDate: 2026-08-27T10:42:00.000+02:00
 description: También son muy reconocibles por su larga lengua que utilizan para
   alcanzar a las presas.
 author: MundoCamaleones

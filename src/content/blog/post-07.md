@@ -1,6 +1,6 @@
 ---
 title: El perro
-pubDate: 2026-07-09
+pubDate: 2026-08-27T10:44:00.000+02:00
 description: Un perro en miniatura con un manto atigrado espectacular y energía inagotable.
 author: MundoPerro
 image:

@@ -1,6 +1,6 @@
 ---
 title: Felinos
-pubDate: 2026-07-12
+pubDate: 2026-08-27T10:42:00.000+02:00
 description: Un felino de aspecto pantera, pero con una naturaleza curiosa,
   activa y muy afectuosa.
 author: Purina
