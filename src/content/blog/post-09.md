@@ -1,6 +1,6 @@
 ---
 title: Buitre
-pubDate: 2026-08-27T10:38:00.000+02:00
+pubDate: 2026-08-27T10:44:00.000+02:00
 description: Un buitre elegante de pelaje corto plateado con reflejos blanco  y
   brillantes ojos marrons.
 author: MundoBuitre
