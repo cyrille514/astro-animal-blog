@@ -3,13 +3,26 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Inicio - GatitosApp">
-  <section class="text-center py-12">
-    <h1 class="text-5xl font-extrabold text-emerald-400 mb-4">¡Bienvenidos a AnimalesApp!</h1>
-    <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8">
-      Aplicación dedicada a explorar la diversidad y características de 10 razas de animales emblemáticos.
-    </p>
-    <a href="/blog" class="px-6 py-3 bg-emerald-500 text-slate-950 font-bold rounded-lg hover:bg-emerald-400 transition-colors">
-      Explorar el Blog →
+  <!-- Section Hero -->
+<section class="max-w-4xl mx-auto px-4 py-12 text-center">
+  <!-- Titre adaptatif : text-3xl sur mobile, text-5xl sur écran moyen+ -->
+  <h1 class="text-3xl sm:text-5xl font-extrabold text-emerald-400 leading-tight break-words">
+    ¡Bienvenido a AnimalesApp!
+  </h1>
+
+  <!-- Description -->
+  <p class="mt-4 text-base sm:text-lg text-slate-300 max-w-xl mx-auto">
+    Aplicación dedicada a explorar la diversidad y características de los animales emblemáticos.
+  </p>
+
+  <!-- Bouton d'action -->
+  <div class="mt-6">
+    <a 
+      href="/blog" 
+      class="inline-block bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-semibold px-6 py-3 rounded-lg transition duration-200"
+    >
+      Explorar el Blog &rarr;
     </a>
-  </section>
+  </div>
+</section>
 </Layout>
