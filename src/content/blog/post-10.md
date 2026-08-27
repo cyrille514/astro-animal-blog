@@ -1,6 +1,6 @@
 ---
 title: Aves
-pubDate: 2026-07-06
+pubDate: 2026-08-27T10:37:00.000+02:00
 description: Con su cara larga y pelaje denso tipo peluche, es el aves británico
   por excelencia.
 author: MundoAves
