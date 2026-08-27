@@ -1,6 +1,6 @@
 ---
 title: Caballos
-pubDate: 2026-07-15
+pubDate: 2026-08-27T10:40:00.000+02:00
 description: Los caballos son animales mamíferos perisodáctilos –en cuyas
   extremidades poseen dedos terminados en pezuñas– que pertenecen a la familia
   de los équidos.
