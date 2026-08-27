@@ -1,6 +1,6 @@
 ---
 title: Ballenas
-pubDate: 2026-07-08
+pubDate: 2026-08-27T10:44:00.000+02:00
 description: "Estos mamíferos, a diferencia de los peces, tienen la cola
   dispuesta en horizontal, lo que les facilita la ascensión a la superficie,
   donde deben subir para respirar. "
