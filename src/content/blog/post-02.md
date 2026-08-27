@@ -1,7 +1,8 @@
 ---
 title: Osos Panda
-pubDate: 2026-07-14
-description: El apetito de este mamífero es insaciable y puede llegar a pasar más de la mitad del día comiendo aquello que más le gusta sin descanso.
+pubDate: 2026-08-27T10:40:00.000+02:00
+description: El apetito de este mamífero es insaciable y puede llegar a pasar
+  más de la mitad del día comiendo aquello que más le gusta sin descanso.
 author: Osos Panda
 image:
   url: /images/panda.avif
